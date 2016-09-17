@@ -1,0 +1,85 @@
+body {
+    font-family: Raleway;
+    background-color: beige;
+}
+
+.title{
+    font-weight: 300;
+    text-align: center;
+    color: brown;
+    font-size: medium;
+}
+
+.subtitle{
+    width: 100%;
+    margin: 1%;
+}
+
+.text-center{
+    width: 300px;
+    margin: auto;
+}
+.ruler{
+    width: 600px;
+    border: 1px solid crimson;
+    border-bottom: none;
+}
+
+.box{
+
+    margin: auto;
+    padding: 200px;
+    border:2px solid crimson;
+    }
+
+.container{
+    width: 500px;
+    margin:auto;
+    background-color: mediumpurple;
+}
+
+.floatbox{
+    padding:100px;
+    float: left;
+    margin:1em;
+    background-color: red;
+    color:white;
+}
+
+.floatcontainer{
+overflow:auto;
+background-color:beige;
+}
+
+.fancy{
+    background-color: yellow;
+    text-decoration:none;
+}
+
+.fancy:hover{
+    background-color:red;
+}
+
+.fancy:visited{
+    color:black;
+}
+
+.hover-card{
+    width:400px;
+    height:400px;
+    background-size:cover;
+    background-image: url("http://www.clipartkid.com/images/587/square-pattern-high-quality-image-free-download-j1DLOU-clipart.png");
+}
+.hover-card div{
+    margin: 0;
+    padding: 1em;
+    display: none;
+    color: darkblue;
+}
+.hover-card:hover div{
+    position: relative;
+    top: 33%;
+    height: 66%;
+    background-color: beige;
+    display: block;
+}

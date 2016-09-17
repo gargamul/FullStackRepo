@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="128ca071-5146-4d80-a37e-65c3b9862ef2" name="CIY" url="http://play.stackup.sg/5amulya">
+        <fileTransfer host="play.stackup.sg" port="22" rootFolder="/home/5amulya" accessType="SFTP" password="dfc9dfc2dfcbdfc4dfcddfcfdfc7dfcf" username="5amulya">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

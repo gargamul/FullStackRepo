@@ -1,0 +1,50 @@
+body{
+       background-size:cover;
+       background-image: url("http://freephoto.cc/wp-content/uploads/2016/02/laptop-coffe-preview-850x565.jpg");
+  }
+
+h1{
+    text-align:center;
+    color:white;
+    font-family: Raleway;
+}
+
+p{
+    margin:5%;
+    font-weight: bold;
+}
+.boxbackground{
+    background-color:black;
+    opacity:0.5;
+}
+.float-container{
+    overflow:auto;
+    width:1200px;
+    height:1000px;
+    margin:10%;
+    margin-top:2%;
+
+}
+.hover-card{
+    width:20%;
+    height:25%;
+    margin:5%;
+    color:white;
+    float:left;
+    text-align: center;
+}
+
+.hover-card:hover{
+    color:black;
+    background-color:white;
+    opacity:1;
+}
+
+.img-circle{
+    object-fit: cover;
+    width:200px;
+    height: 200px;
+    display:block;
+    margin:auto;
+    border-radius:50%;
+}
